@@ -1,0 +1,740 @@
+---
+swagger: "2.0"
+x-collection-name: Kaltura
+x-complete: 0
+info:
+  title: Kaltura VPaaS Get Service Annotation Annotation Action Add
+  description: Allows you to add an annotation object associated with an entry
+  version: 3.3.0
+host: www.kaltura.com
+basePath: /api_v3
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /service/accesscontrol/action/add:
+    get:
+      summary: Get Service Access Control Action Add
+      description: Add new Access Control Profile
+      operationId: accessControl.add
+      x-api-path-slug: serviceaccesscontrolactionadd-get
+      parameters:
+      - in: query
+        name: accessControl[description]
+        description: The description of the Access Control Profile
+      - in: query
+        name: accessControl[isDefault]
+        description: 'Enum Type: `KalturaNullableBoolean`True if this Conversion Profile
+          is the default'
+      - in: query
+        name: accessControl[name]
+        description: The name of the Access Control Profile
+      - in: query
+        name: accessControl[restrictions]
+      - in: query
+        name: accessControl[systemName]
+        description: System name of the Access Control Profile
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrol
+      - Action
+      - Add
+  /service/accesscontrol/action/delete:
+    get:
+      summary: Get Service Access Control Action Delete
+      description: Delete Access Control Profile by id
+      operationId: accessControl.delete
+      x-api-path-slug: serviceaccesscontrolactiondelete-get
+      parameters:
+      - in: query
+        name: id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrol
+      - Action
+      - Delete
+  /service/accesscontrol/action/get:
+    get:
+      summary: Get Service Access Control Action Get
+      description: Get Access Control Profile by id
+      operationId: accessControl.get
+      x-api-path-slug: serviceaccesscontrolactionget-get
+      parameters:
+      - in: query
+        name: id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrol
+      - Action
+      - Get
+  /service/accesscontrol/action/list:
+    get:
+      summary: Get Service Access Control Action List
+      description: List Access Control Profiles by filter and pager
+      operationId: accessControl.list
+      x-api-path-slug: serviceaccesscontrolactionlist-get
+      parameters:
+      - in: query
+        name: filter[advancedSearch][attribute]
+        description: 'Enum Type: `KalturaBaseEntryCompareAttribute`'
+      - in: query
+        name: filter[advancedSearch][categoriesMatchOr]
+      - in: query
+        name: filter[advancedSearch][categoryEntryStatusIn]
+      - in: query
+        name: filter[advancedSearch][categoryIdEqual]
+      - in: query
+        name: filter[advancedSearch][comparison]
+        description: 'Enum Type: `KalturaSearchConditionComparison`'
+      - in: query
+        name: filter[advancedSearch][contentLike]
+      - in: query
+        name: filter[advancedSearch][contentMultiLikeAnd]
+      - in: query
+        name: filter[advancedSearch][contentMultiLikeOr]
+      - in: query
+        name: filter[advancedSearch][cuePointsFreeText]
+      - in: query
+        name: filter[advancedSearch][cuePointSubTypeEqual]
+      - in: query
+        name: filter[advancedSearch][cuePointTypeIn]
+      - in: query
+        name: filter[advancedSearch][depthGreaterThanEqual]
+      - in: query
+        name: filter[advancedSearch][distributionProfileId]
+      - in: query
+        name: filter[advancedSearch][distributionSunStatus]
+        description: 'Enum Type: `KalturaEntryDistributionSunStatus`'
+      - in: query
+        name: filter[advancedSearch][entryDistributionFlag]
+        description: 'Enum Type: `KalturaEntryDistributionFlag`'
+      - in: query
+        name: filter[advancedSearch][entryDistributionStatus]
+        description: 'Enum Type: `KalturaEntryDistributionStatus`'
+      - in: query
+        name: filter[advancedSearch][entryDistributionValidationErrors]
+        description: Comma seperated validation error types
+      - in: query
+        name: filter[advancedSearch][extendedStatusEqual]
+        description: 'Enum Type: `KalturaUserEntryExtendedStatus`'
+      - in: query
+        name: filter[advancedSearch][extendedStatusIn]
+      - in: query
+        name: filter[advancedSearch][field]
+      - in: query
+        name: filter[advancedSearch][hasEntryDistributionValidationErrors]
+      - in: query
+        name: filter[advancedSearch][idEqual]
+      - in: query
+        name: filter[advancedSearch][idIn]
+      - in: query
+        name: filter[advancedSearch][indexIdGreaterThan]
+      - in: query
+        name: filter[advancedSearch][isQuiz]
+        description: 'Enum Type: `KalturaNullableBoolean`'
+      - in: query
+        name: filter[advancedSearch][items]
+      - in: query
+        name: filter[advancedSearch][memberIdEq]
+      - in: query
+        name: filter[advancedSearch][memberIdIn]
+      - in: query
+        name: filter[advancedSearch][memberPermissionsMatchAnd]
+      - in: query
+        name: filter[advancedSearch][memberPermissionsMatchOr]
+      - in: query
+        name: filter[advancedSearch][metadataProfileId]
+      - in: query
+        name: filter[advancedSearch][noDistributionProfiles]
+      - in: query
+        name: filter[advancedSearch][not]
+      - in: query
+        name: filter[advancedSearch][objectType]
+      - in: query
+        name: filter[advancedSearch][orderBy]
+        description: 'Enum Type: `KalturaCategoryEntryAdvancedOrderBy`'
+      - in: query
+        name: filter[advancedSearch][type]
+        description: 'Enum Type: `KalturaSearchOperatorType`'
+      - in: query
+        name: filter[advancedSearch][updatedAtGreaterThanOrEqual]
+      - in: query
+        name: filter[advancedSearch][updatedAtLessThanOrEqual]
+      - in: query
+        name: filter[advancedSearch][userIdEqual]
+      - in: query
+        name: filter[advancedSearch][userIdIn]
+      - in: query
+        name: filter[advancedSearch][value]
+      - in: query
+        name: filter[advancedSearch][watermarkId]
+      - in: query
+        name: filter[createdAtGreaterThanOrEqual]
+      - in: query
+        name: filter[createdAtLessThanOrEqual]
+      - in: query
+        name: filter[idEqual]
+      - in: query
+        name: filter[idIn]
+      - in: query
+        name: filter[orderBy]
+      - in: query
+        name: filter[systemNameEqual]
+      - in: query
+        name: filter[systemNameIn]
+      - in: query
+        name: No Name
+      - in: query
+        name: pager[pageIndex]
+        description: The page number for which {pageSize} of objects should be retrieved
+          (Default is 1)
+      - in: query
+        name: pager[pageSize]
+        description: The number of objects to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrol
+      - Action
+      - List
+  /service/accesscontrol/action/update:
+    get:
+      summary: Get Service Access Control Action Update
+      description: Update Access Control Profile by id
+      operationId: accessControl.update
+      x-api-path-slug: serviceaccesscontrolactionupdate-get
+      parameters:
+      - in: query
+        name: accessControl[description]
+        description: The description of the Access Control Profile
+      - in: query
+        name: accessControl[isDefault]
+        description: 'Enum Type: `KalturaNullableBoolean`True if this Conversion Profile
+          is the default'
+      - in: query
+        name: accessControl[name]
+        description: The name of the Access Control Profile
+      - in: query
+        name: accessControl[restrictions]
+      - in: query
+        name: accessControl[systemName]
+        description: System name of the Access Control Profile
+      - in: query
+        name: id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrol
+      - Action
+      - Update
+  /service/accesscontrolprofile/action/add:
+    get:
+      summary: Get Service Access Controlprofile Action Add
+      description: Add new access control profile
+      operationId: accessControlProfile.add
+      x-api-path-slug: serviceaccesscontrolprofileactionadd-get
+      parameters:
+      - in: query
+        name: accessControlProfile[description]
+        description: The description of the Access Control Profile
+      - in: query
+        name: accessControlProfile[isDefault]
+        description: 'Enum Type: `KalturaNullableBoolean`True if this access control
+          profile is the partner default'
+      - in: query
+        name: accessControlProfile[name]
+        description: The name of the Access Control Profile
+      - in: query
+        name: accessControlProfile[rules]
+      - in: query
+        name: accessControlProfile[systemName]
+        description: System name of the Access Control Profile
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrolprofile
+      - Action
+      - Add
+  /service/accesscontrolprofile/action/delete:
+    get:
+      summary: Get Service Access Controlprofile Action Delete
+      description: Delete access control profile by id
+      operationId: accessControlProfile.delete
+      x-api-path-slug: serviceaccesscontrolprofileactiondelete-get
+      parameters:
+      - in: query
+        name: id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrolprofile
+      - Action
+      - Delete
+  /service/accesscontrolprofile/action/get:
+    get:
+      summary: Get Service Access Controlprofile Action Get
+      description: Get access control profile by id
+      operationId: accessControlProfile.get
+      x-api-path-slug: serviceaccesscontrolprofileactionget-get
+      parameters:
+      - in: query
+        name: id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrolprofile
+      - Action
+      - Get
+  /service/accesscontrolprofile/action/list:
+    get:
+      summary: Get Service Access Controlprofile Action List
+      description: List access control profiles by filter and pager
+      operationId: accessControlProfile.list
+      x-api-path-slug: serviceaccesscontrolprofileactionlist-get
+      parameters:
+      - in: query
+        name: filter[advancedSearch][attribute]
+        description: 'Enum Type: `KalturaBaseEntryCompareAttribute`'
+      - in: query
+        name: filter[advancedSearch][categoriesMatchOr]
+      - in: query
+        name: filter[advancedSearch][categoryEntryStatusIn]
+      - in: query
+        name: filter[advancedSearch][categoryIdEqual]
+      - in: query
+        name: filter[advancedSearch][comparison]
+        description: 'Enum Type: `KalturaSearchConditionComparison`'
+      - in: query
+        name: filter[advancedSearch][contentLike]
+      - in: query
+        name: filter[advancedSearch][contentMultiLikeAnd]
+      - in: query
+        name: filter[advancedSearch][contentMultiLikeOr]
+      - in: query
+        name: filter[advancedSearch][cuePointsFreeText]
+      - in: query
+        name: filter[advancedSearch][cuePointSubTypeEqual]
+      - in: query
+        name: filter[advancedSearch][cuePointTypeIn]
+      - in: query
+        name: filter[advancedSearch][depthGreaterThanEqual]
+      - in: query
+        name: filter[advancedSearch][distributionProfileId]
+      - in: query
+        name: filter[advancedSearch][distributionSunStatus]
+        description: 'Enum Type: `KalturaEntryDistributionSunStatus`'
+      - in: query
+        name: filter[advancedSearch][entryDistributionFlag]
+        description: 'Enum Type: `KalturaEntryDistributionFlag`'
+      - in: query
+        name: filter[advancedSearch][entryDistributionStatus]
+        description: 'Enum Type: `KalturaEntryDistributionStatus`'
+      - in: query
+        name: filter[advancedSearch][entryDistributionValidationErrors]
+        description: Comma seperated validation error types
+      - in: query
+        name: filter[advancedSearch][extendedStatusEqual]
+        description: 'Enum Type: `KalturaUserEntryExtendedStatus`'
+      - in: query
+        name: filter[advancedSearch][extendedStatusIn]
+      - in: query
+        name: filter[advancedSearch][field]
+      - in: query
+        name: filter[advancedSearch][hasEntryDistributionValidationErrors]
+      - in: query
+        name: filter[advancedSearch][idEqual]
+      - in: query
+        name: filter[advancedSearch][idIn]
+      - in: query
+        name: filter[advancedSearch][indexIdGreaterThan]
+      - in: query
+        name: filter[advancedSearch][isQuiz]
+        description: 'Enum Type: `KalturaNullableBoolean`'
+      - in: query
+        name: filter[advancedSearch][items]
+      - in: query
+        name: filter[advancedSearch][memberIdEq]
+      - in: query
+        name: filter[advancedSearch][memberIdIn]
+      - in: query
+        name: filter[advancedSearch][memberPermissionsMatchAnd]
+      - in: query
+        name: filter[advancedSearch][memberPermissionsMatchOr]
+      - in: query
+        name: filter[advancedSearch][metadataProfileId]
+      - in: query
+        name: filter[advancedSearch][noDistributionProfiles]
+      - in: query
+        name: filter[advancedSearch][not]
+      - in: query
+        name: filter[advancedSearch][objectType]
+      - in: query
+        name: filter[advancedSearch][orderBy]
+        description: 'Enum Type: `KalturaCategoryEntryAdvancedOrderBy`'
+      - in: query
+        name: filter[advancedSearch][type]
+        description: 'Enum Type: `KalturaSearchOperatorType`'
+      - in: query
+        name: filter[advancedSearch][updatedAtGreaterThanOrEqual]
+      - in: query
+        name: filter[advancedSearch][updatedAtLessThanOrEqual]
+      - in: query
+        name: filter[advancedSearch][userIdEqual]
+      - in: query
+        name: filter[advancedSearch][userIdIn]
+      - in: query
+        name: filter[advancedSearch][value]
+      - in: query
+        name: filter[advancedSearch][watermarkId]
+      - in: query
+        name: filter[createdAtGreaterThanOrEqual]
+      - in: query
+        name: filter[createdAtLessThanOrEqual]
+      - in: query
+        name: filter[idEqual]
+      - in: query
+        name: filter[idIn]
+      - in: query
+        name: filter[orderBy]
+      - in: query
+        name: filter[systemNameEqual]
+      - in: query
+        name: filter[systemNameIn]
+      - in: query
+        name: filter[updatedAtGreaterThanOrEqual]
+      - in: query
+        name: filter[updatedAtLessThanOrEqual]
+      - in: query
+        name: No Name
+      - in: query
+        name: pager[pageIndex]
+        description: The page number for which {pageSize} of objects should be retrieved
+          (Default is 1)
+      - in: query
+        name: pager[pageSize]
+        description: The number of objects to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrolprofile
+      - Action
+      - List
+  /service/accesscontrolprofile/action/update:
+    get:
+      summary: Get Service Access Controlprofile Action Update
+      description: Update access control profile by id
+      operationId: accessControlProfile.update
+      x-api-path-slug: serviceaccesscontrolprofileactionupdate-get
+      parameters:
+      - in: query
+        name: accessControlProfile[description]
+        description: The description of the Access Control Profile
+      - in: query
+        name: accessControlProfile[isDefault]
+        description: 'Enum Type: `KalturaNullableBoolean`True if this access control
+          profile is the partner default'
+      - in: query
+        name: accessControlProfile[name]
+        description: The name of the Access Control Profile
+      - in: query
+        name: accessControlProfile[rules]
+      - in: query
+        name: accessControlProfile[systemName]
+        description: System name of the Access Control Profile
+      - in: query
+        name: id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Accesscontrolprofile
+      - Action
+      - Update
+  /service/adminuser/action/login:
+    get:
+      summary: Get Service Adminuser Action Login
+      description: Get an admin session using admin email and password (Used for login
+        to the KMC application)
+      operationId: adminUser.login
+      x-api-path-slug: serviceadminuseractionlogin-get
+      parameters:
+      - in: query
+        name: email
+      - in: query
+        name: No Name
+      - in: query
+        name: partnerId
+      - in: query
+        name: password
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Adminuser
+      - Action
+      - Login
+  /service/adminuser/action/resetPassword:
+    get:
+      summary: Get Service Adminuser Action Resetpassword
+      description: Reset admin user password and send it to the users email address
+      operationId: adminUser.resetPassword
+      x-api-path-slug: serviceadminuseractionresetpassword-get
+      parameters:
+      - in: query
+        name: email
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Adminuser
+      - Action
+      - ResetPassword
+  /service/adminuser/action/setInitialPassword:
+    get:
+      summary: Get Service Adminuser Action Setinitialpassword
+      description: Set initial users password
+      operationId: adminUser.setInitialPassword
+      x-api-path-slug: serviceadminuseractionsetinitialpassword-get
+      parameters:
+      - in: query
+        name: hashKey
+      - in: query
+        name: newPassword
+        description: new password to set
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Adminuser
+      - Action
+      - SetInitialPassword
+  /service/adminuser/action/updatePassword:
+    get:
+      summary: Get Service Adminuser Action Updatepassword
+      description: Update admin user password and email
+      operationId: adminUser.updatePassword
+      x-api-path-slug: serviceadminuseractionupdatepassword-get
+      parameters:
+      - in: query
+        name: email
+      - in: query
+        name: newEmail
+        description: Optional, provide only when you want to update the email
+      - in: query
+        name: newPassword
+      - in: query
+        name: No Name
+      - in: query
+        name: password
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Adminuser
+      - Action
+      - UpdatePassword
+  /service/analytics/action/query:
+    get:
+      summary: Get Service Analytics Action Query
+      description: report query action allows to get a analytics data for specific
+        query dimensions, metrics and filters.
+      operationId: analytics.query
+      x-api-path-slug: serviceanalyticsactionquery-get
+      parameters:
+      - in: query
+        name: filter[dimensions]
+        description: Comma separated dimensions list
+      - in: query
+        name: filter[filters]
+      - in: query
+        name: filter[from_time]
+        description: Query start time (in local time) MM/dd/yyyy HH:mi
+      - in: query
+        name: filter[metrics]
+        description: Comma separated metrics list
+      - in: query
+        name: filter[orderBy]
+        description: Query order by metric/dimension
+      - in: query
+        name: filter[to_time]
+        description: Query end time (in local time) MM/dd/yyyy HH:mi
+      - in: query
+        name: filter[utcOffset]
+        description: Timezone offset from UTC (in minutes)
+      - in: query
+        name: No Name
+      - in: query
+        name: pager[pageIndex]
+        description: The page number for which {pageSize} of objects should be retrieved
+          (Default is 1)
+      - in: query
+        name: pager[pageSize]
+        description: The number of objects to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Analytics
+      - Action
+      - Query
+  /service/annotation_annotation/action/add:
+    get:
+      summary: Get Service Annotation Annotation Action Add
+      description: Allows you to add an annotation object associated with an entry
+      operationId: annotation.add
+      x-api-path-slug: serviceannotation-annotationactionadd-get
+      parameters:
+      - in: query
+        name: annotation[adType]
+        description: 'Enum Type: `KalturaAdType`'
+      - in: query
+        name: annotation[answerKey]
+      - in: query
+        name: annotation[assetId]
+      - in: query
+        name: annotation[code]
+      - in: query
+        name: annotation[correctAnswerKeys]
+      - in: query
+        name: annotation[description]
+      - in: query
+        name: annotation[duration]
+        description: Duration in milliseconds
+      - in: query
+        name: annotation[endTime]
+        description: End time in milliseconds
+      - in: query
+        name: annotation[entryId]
+        description: '`insertOnly`'
+      - in: query
+        name: annotation[eventType]
+        description: 'Enum Type: `KalturaEventType`'
+      - in: query
+        name: annotation[explanation]
+      - in: query
+        name: annotation[forceStop]
+        description: 'Enum Type: `KalturaNullableBoolean`'
+      - in: query
+        name: annotation[hint]
+      - in: query
+        name: annotation[isPublic]
+        description: 'Enum Type: `KalturaNullableBoolean`Is the annotation public'
+      - in: query
+        name: annotation[objectType]
+      - in: query
+        name: annotation[optionalAnswers]
+      - in: query
+        name: annotation[parentId]
+        description: '`insertOnly`'
+      - in: query
+        name: annotation[partnerData]
+      - in: query
+        name: annotation[partnerSortValue]
+      - in: query
+        name: annotation[protocolType]
+        description: '`insertOnly`Enum Type: `KalturaAdProtocolType`'
+      - in: query
+        name: annotation[question]
+      - in: query
+        name: annotation[quizUserEntryId]
+        description: '`insertOnly`'
+      - in: query
+        name: annotation[searchableOnEntry]
+        description: 'Enum Type: `KalturaNullableBoolean`Should the cue point get
+          indexed on the entry'
+      - in: query
+        name: annotation[sourceUrl]
+      - in: query
+        name: annotation[startTime]
+        description: Start time in milliseconds
+      - in: query
+        name: annotation[subType]
+        description: 'Enum Type: `KalturaThumbCuePointSubType`The sub type of the
+          ThumbCuePoint'
+      - in: query
+        name: annotation[systemName]
+      - in: query
+        name: annotation[tags]
+      - in: query
+        name: annotation[text]
+      - in: query
+        name: annotation[thumbOffset]
+      - in: query
+        name: annotation[title]
+      - in: query
+        name: annotation[triggeredAt]
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Annotation
+      - Annotation
+      - Action
+      - Add
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
