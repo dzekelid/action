@@ -9,14 +9,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Action
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xibo API
-  x-api-slug: xibo-api
-  description: xibo-cms-api
+- name: 'Xibo API - Action: Collect Now'
+  x-api-slug: displaygroupdisplaygroupidactioncollectnow-post
+  description: Send the collect now action to this DisplayGroup
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
   humanURL: http://www.xibo.org.uk
   baseURL: https:////api
@@ -26,107 +26,54 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-openapi.md
-- name: Xibo API
-  x-api-slug: xibo-api
-  description: xibo-cms-api
+- name: 'Xibo API - Action: Clear Stats and Logs'
+  x-api-slug: displaygroupdisplaygroupidactionclearstatsandlogs-post
+  description: Clear all stats and logs on this Group
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
   humanURL: http://www.xibo.org.uk
   baseURL: https:////api
   tags: Signs, Signage, Display, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-openapi.md
-- name: Xibo API
-  x-api-slug: xibo-api
-  description: xibo-cms-api
+- name: 'Xibo API - Action: Change Layout'
+  x-api-slug: displaygroupdisplaygroupidactionchangelayout-post
+  description: Send the change layout action to this DisplayGroup
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
   humanURL: http://www.xibo.org.uk
   baseURL: https:////api
   tags: Signs, Signage, Display, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionchangelayout-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionchangelayout-post-openapi.md
-- name: Xibo API
-  x-api-slug: xibo-api
-  description: xibo-cms-api
+- name: 'Xibo API - Action: Revert to Schedule'
+  x-api-slug: displaygroupdisplaygroupidactionreverttoschedule-post
+  description: Send the revert to schedule action to this DisplayGroup
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
   humanURL: http://www.xibo.org.uk
   baseURL: https:////api
   tags: Signs, Signage, Display, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionchangelayout-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionchangelayout-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionreverttoschedule-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionreverttoschedule-post-openapi.md
-- name: Xibo API
-  x-api-slug: xibo-api
-  description: xibo-cms-api
+- name: 'Xibo API - Action: Overlay Layout'
+  x-api-slug: displaygroupdisplaygroupidactionoverlaylayout-post
+  description: Send the overlay layout action to this DisplayGroup
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
   humanURL: http://www.xibo.org.uk
   baseURL: https:////api
   tags: Signs, Signage, Display, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactioncollectnow-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionclearstatsandlogs-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionchangelayout-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionchangelayout-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionreverttoschedule-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionreverttoschedule-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionoverlaylayout-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/displaygroupdisplaygroupidactionoverlaylayout-post-openapi.md
-- name: Xibo API
-  x-api-slug: xibo-api
-  description: Xibo Digital Signage is a low-cost, high performance solution to launch
-    your business, workplace or organisation into the future. Xibo doesn&rsquo;t just
-    replicate print media, but actively increases engagement allowing you to deliver
-    your message more effectively than ever before.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
-  humanURL: http://www.xibo.org.uk
-  baseURL: https:////api
-  tags: Action
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/xibo/openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.xibo.org.uk/rss/

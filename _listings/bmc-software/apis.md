@@ -7,14 +7,15 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-so
 x-kinRank: "8"
 x-alexaRank: "27308"
 tags: Action
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BMC Software API
-  x-api-slug: bmc-software-api
-  description: ""
+- name: BMC Software Merged API - Get Actions (Alerts) List
+  x-api-slug: apiversionactions-get
+  description: Returns a list of actions (alerts) that have been generated for your
+    account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
   baseURL: https:///
@@ -25,80 +26,45 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-openapi.md
-- name: BMC Software API
-  x-api-slug: bmc-software-api
-  description: ""
+- name: BMC Software Merged API - Create Action
+  x-api-slug: actions-post
+  description: Create a new Action.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
   baseURL: https:///
   tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
     API Service Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-post-openapi.md
-- name: BMC Software API
-  x-api-slug: bmc-software-api
-  description: ""
+- name: BMC Software Merged API - List Actions
+  x-api-slug: actions-get
+  description: List of all Actions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
   baseURL: https:///
   tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
     API Service Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-get-openapi.md
-- name: BMC Software API
-  x-api-slug: bmc-software-api
-  description: ""
+- name: BMC Software Merged API - Update Action
+  x-api-slug: actionsaction-id-put
+  description: Update an existing Action.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
   baseURL: https:///
   tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
     API Service Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/apiversionactions-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actions-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actionsaction-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/actionsaction-id-put-openapi.md
-- name: BMC Software API
-  x-api-slug: bmc-software-api
-  description: Transform your digital enterprise with BMC IT solutions. From mainframe
-    to cloud to mobile, we???ll help you drive innovation and industrial efficiency.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
-  humanURL: http://www.bmc.com
-  baseURL: https:///
-  tags: Action
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/bmc-software/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://blogger.api.gallery.streamdata.io

@@ -8,154 +8,54 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: ""
+- name: AWS Security Token Service API - Get Caller Identity
+  x-api-slug: actiongetcalleridentity-get
+  description: |-
+    Returns details about the IAM identity whose credentials are used to call the
+          API.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
   humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   baseURL: :///
   tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
     Provider, API Service Provider, API Provider, Profiles, Relative Data
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
-  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
-  baseURL: :///
-  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
-    Provider, API Service Provider, API Provider, Profiles, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithsaml-get-openapi.md
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
-  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
-  baseURL: :///
-  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
-    Provider, API Service Provider, API Provider, Profiles, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithsaml-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithwebidentity-get-openapi.md
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
-  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
-  baseURL: :///
-  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
-    Provider, API Service Provider, API Provider, Profiles, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithsaml-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithwebidentity-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiondecodeauthorizationmessage-get-openapi.md
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
-  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
-  baseURL: :///
-  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
-    Provider, API Service Provider, API Provider, Profiles, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithsaml-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithwebidentity-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiondecodeauthorizationmessage-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetcalleridentity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetcalleridentity-get-openapi.md
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: ""
+- name: AWS Security Token Service API - Get Federation Token
+  x-api-slug: actiongetfederationtoken-get
+  description: |-
+    Returns a set of temporary security credentials (consisting of an access key ID, a
+          secret access key, and a security token) for a federated user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
   humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   baseURL: :///
   tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
     Provider, API Service Provider, API Provider, Profiles, Relative Data
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithsaml-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithwebidentity-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiondecodeauthorizationmessage-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetcalleridentity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetcalleridentity-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetfederationtoken-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetfederationtoken-get-openapi.md
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: ""
+- name: AWS Security Token Service API - Get Session Token
+  x-api-slug: actiongetsessiontoken-get
+  description: Returns a set of temporary credentials for an AWS account or IAM user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
   humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   baseURL: :///
   tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
     Provider, API Service Provider, API Provider, Profiles, Relative Data
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithsaml-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithwebidentity-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiondecodeauthorizationmessage-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetcalleridentity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetcalleridentity-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetfederationtoken-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetfederationtoken-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetsessiontoken-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiongetsessiontoken-get-openapi.md
-- name: AWS Security Token Service API
-  x-api-slug: aws-security-token-service-api
-  description: The AWS Security Token Service (STS) is a web service that enables
-    you to request temporary, limited-privilege credentials for AWS Identity and Access
-    Management (IAM) users or for users that you authenticate (federated users).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
-  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
-  baseURL: :///
-  tags: Action
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.s3.api.gallery.streamdata.io
