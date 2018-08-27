@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/apis.md
 specificationVersion: "0.14"
 apis:
@@ -54,6 +54,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/actioncreatestack-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/actioncreatestack-get-openapi.md
+- name: AWS AppStream 2.0 API - Create Streaming URL
+  x-api-slug: actioncreatestreamingurl-get
+  description: Creates a URL to start an AppStream 2.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png
+  humanURL: https://aws.amazon.com/appstream2/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/actioncreatestreamingurl-get-openapi.md
 - name: AWS AppStream 2.0 API - Delete Fleet
   x-api-slug: actiondeletefleet-get
   description: Deletes a fleet.
@@ -95,6 +106,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/actiondescribefleets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/actiondescribefleets-get-openapi.md
+- name: AWS AppStream 2.0 API - Describe Images
+  x-api-slug: actiondescribeimages-get
+  description: Describes the images.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png
+  humanURL: https://aws.amazon.com/appstream2/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/actiondescribeimages-get-openapi.md
+- name: AWS AppStream 2.0 API - Describe Sessions
+  x-api-slug: actiondescribesessions-get
+  description: Describes the streaming sessions for a stack and a fleet.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png
+  humanURL: https://aws.amazon.com/appstream2/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-appstream/actiondescribesessions-get-openapi.md
 - name: AWS AppStream 2.0 API - Describe Stacks
   x-api-slug: actiondescribestacks-get
   description: |-

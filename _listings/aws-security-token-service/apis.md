@@ -8,11 +8,65 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Security Token Service API - Assume Role
+  x-api-slug: actionassumerole-get
+  description: |-
+    Returns a set of temporary security credentials (consisting of an access key ID, a
+          secret access key, and a security token) that you can use to access AWS resources that you
+          might not normally have access to.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
+  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerole-get-openapi.md
+- name: AWS Security Token Service API - Assume Role With S A M L
+  x-api-slug: actionassumerolewithsaml-get
+  description: |-
+    Returns a set of temporary security credentials for users who have been authenticated
+          via a SAML authentication response.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
+  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithsaml-get-openapi.md
+- name: AWS Security Token Service API - Assume Role With Web Identity
+  x-api-slug: actionassumerolewithwebidentity-get
+  description: |-
+    Returns a set of temporary security credentials for users who have been authenticated
+          in a mobile or web application with a web identity provider, such as Amazon Cognito, Login with Amazon,
+          Facebook, Google, or any OpenID Connect-compatible identity provider.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
+  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actionassumerolewithwebidentity-get-openapi.md
+- name: AWS Security Token Service API - Decode Authorization Message
+  x-api-slug: actiondecodeauthorizationmessage-get
+  description: |-
+    Decodes additional information about the authorization status of a request from an
+          encoded message returned in response to an AWS request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
+  humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Security, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-security-token-service/actiondecodeauthorizationmessage-get-openapi.md
 - name: AWS Security Token Service API - Get Caller Identity
   x-api-slug: actiongetcalleridentity-get
   description: |-

@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-shield/apis.md
 specificationVersion: "0.14"
 apis:
@@ -75,6 +75,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-shield/actiondeletesubscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-shield/actiondeletesubscription-get-openapi.md
+- name: AWS Shield API - Describe Attack
+  x-api-slug: actiondescribeattack-get
+  description: Describes the details of a DDoS attack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2016-12-30 at 10.35.48 PM.png
+  humanURL: https://aws.amazon.com/shield/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-shield/actiondescribeattack-get-openapi.md
 - name: AWS Shield API - Describe Protection
   x-api-slug: actiondescribeprotection-get
   description: Lists the details of a.
@@ -104,6 +116,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-shield/actiondescribesubscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-shield/actiondescribesubscription-get-openapi.md
+- name: AWS Shield API - List Attacks
+  x-api-slug: actionlistattacks-get
+  description: |-
+    Returns all ongoing DDoS attacks or all DDoS attacks during a specified time
+             period.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2016-12-30 at 10.35.48 PM.png
+  humanURL: https://aws.amazon.com/shield/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-shield/actionlistattacks-get-openapi.md
 - name: AWS Shield API - List Protections
   x-api-slug: actionlistprotections-get
   description: Lists all protections.

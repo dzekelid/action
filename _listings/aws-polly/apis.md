@@ -21,11 +21,79 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-polly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Polly API - Delete Lexicon
+  x-api-slug: actiondeletelexicon-get
+  description: Deletes the specified pronunciation lexicon stored in an AWS Region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-polly.jpg
+  humanURL: https://aws.amazon.com/polly/
+  baseURL: :///
+  tags: Amazon Web Services, Speech, Voice, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Texts, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-polly/actiondeletelexicon-get-openapi.md
+- name: AWS Polly API - Describe Voices
+  x-api-slug: actiondescribevoices-get
+  description: Returns the list of voices that are available for use when requesting
+    speech synthesis.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-polly.jpg
+  humanURL: https://aws.amazon.com/polly/
+  baseURL: :///
+  tags: Amazon Web Services, Speech, Voice, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Texts, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-polly/actiondescribevoices-get-openapi.md
+- name: AWS Polly API - Get Lexicon
+  x-api-slug: actiongetlexicon-get
+  description: Returns the content of the specified pronunciation lexicon stored in
+    an AWS Region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-polly.jpg
+  humanURL: https://aws.amazon.com/polly/
+  baseURL: :///
+  tags: Amazon Web Services, Speech, Voice, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Texts, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-polly/actiongetlexicon-get-openapi.md
+- name: AWS Polly API - List Lexicons
+  x-api-slug: actionlistlexicons-get
+  description: Returns a list of pronunciation lexicons stored in an AWS Region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-polly.jpg
+  humanURL: https://aws.amazon.com/polly/
+  baseURL: :///
+  tags: Amazon Web Services, Speech, Voice, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Texts, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-polly/actionlistlexicons-get-openapi.md
+- name: AWS Polly API - Put Lexicon
+  x-api-slug: actionputlexicon-get
+  description: Stores a pronunciation lexicon in an AWS Region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-polly.jpg
+  humanURL: https://aws.amazon.com/polly/
+  baseURL: :///
+  tags: Amazon Web Services, Speech, Voice, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Texts, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-polly/actionputlexicon-get-openapi.md
+- name: AWS Polly API - Synthesize Speech
+  x-api-slug: actionsynthesizespeech-get
+  description: Synthesizes UTF-8 input, plain text or SSML, to a stream of bytes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-polly.jpg
+  humanURL: https://aws.amazon.com/polly/
+  baseURL: :///
+  tags: Amazon Web Services, Speech, Voice, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Texts, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-polly/actionsynthesizespeech-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.pinpoint.api.gallery.streamdata.io

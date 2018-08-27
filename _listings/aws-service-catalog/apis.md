@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/apis.md
 specificationVersion: "0.14"
 apis:
@@ -56,6 +56,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionassociateproductwithportfolio-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionassociateproductwithportfolio-get-openapi.md
+- name: AWS Service Catalog API - Create Constraint
+  x-api-slug: actioncreateconstraint-get
+  description: Creates a new constraint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actioncreateconstraint-get-openapi.md
 - name: AWS Service Catalog API - Create Portfolio
   x-api-slug: actioncreateportfolio-get
   description: Creates a new portfolio.
@@ -82,6 +93,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actioncreateportfolioshare-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actioncreateportfolioshare-get-openapi.md
+- name: AWS Service Catalog API - Create Product
+  x-api-slug: actioncreateproduct-get
+  description: Creates a new product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actioncreateproduct-get-openapi.md
+- name: AWS Service Catalog API - Create Provisioning Artifact
+  x-api-slug: actioncreateprovisioningartifact-get
+  description: Create a new provisioning artifact for the specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actioncreateprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Delete Constraint
+  x-api-slug: actiondeleteconstraint-get
+  description: Deletes the specified constraint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondeleteconstraint-get-openapi.md
 - name: AWS Service Catalog API - Delete Portfolio
   x-api-slug: actiondeleteportfolio-get
   description: Deletes the specified portfolio.
@@ -108,6 +152,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondeleteportfolioshare-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondeleteportfolioshare-get-openapi.md
+- name: AWS Service Catalog API - Delete Product
+  x-api-slug: actiondeleteproduct-get
+  description: Deletes the specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondeleteproduct-get-openapi.md
+- name: AWS Service Catalog API - Delete Provisioning Artifact
+  x-api-slug: actiondeleteprovisioningartifact-get
+  description: Deletes the specified provisioning artifact.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondeleteprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Describe Constraint
+  x-api-slug: actiondescribeconstraint-get
+  description: Retrieves detailed information for a specified constraint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeconstraint-get-openapi.md
 - name: AWS Service Catalog API - Describe Portfolio
   x-api-slug: actiondescribeportfolio-get
   description: |-
@@ -123,6 +200,76 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeportfolio-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeportfolio-get-openapi.md
+- name: AWS Service Catalog API - Describe Product
+  x-api-slug: actiondescribeproduct-get
+  description: Retrieves information about a specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeproduct-get-openapi.md
+- name: AWS Service Catalog API - Describe Product As Admin
+  x-api-slug: actiondescribeproductasadmin-get
+  description: |-
+    Retrieves information about a specified product, run with administrator
+             access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeproductasadmin-get-openapi.md
+- name: AWS Service Catalog API - Describe Product View
+  x-api-slug: actiondescribeproductview-get
+  description: Retrieves information about a specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeproductview-get-openapi.md
+- name: AWS Service Catalog API - Describe Provisioning Artifact
+  x-api-slug: actiondescribeprovisioningartifact-get
+  description: Retrieves detailed information about the specified provisioning artifact.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Describe Provisioning Parameters
+  x-api-slug: actiondescribeprovisioningparameters-get
+  description: |-
+    Provides information about parameters required to provision a specified product in a
+             specified manner.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescribeprovisioningparameters-get-openapi.md
+- name: AWS Service Catalog API - Describe Record
+  x-api-slug: actiondescriberecord-get
+  description: Retrieves a paginated list of the full details of a specific request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actiondescriberecord-get-openapi.md
 - name: AWS Service Catalog API - Disassociate Principal From Portfolio
   x-api-slug: actiondisassociateprincipalfromportfolio-get
   description: |-
@@ -248,6 +395,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionlistprincipalsforportfolio-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionlistprincipalsforportfolio-get-openapi.md
+- name: AWS Service Catalog API - List Provisioning Artifacts
+  x-api-slug: actionlistprovisioningartifacts-get
+  description: Lists all provisioning artifacts associated with the specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionlistprovisioningartifacts-get-openapi.md
 - name: AWS Service Catalog API - List Record History
   x-api-slug: actionlistrecordhistory-get
   description: |-
@@ -263,6 +421,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionlistrecordhistory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionlistrecordhistory-get-openapi.md
+- name: AWS Service Catalog API - Provision Product
+  x-api-slug: actionprovisionproduct-get
+  description: Requests a Provision of a specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionprovisionproduct-get-openapi.md
 - name: AWS Service Catalog API - Reject Portfolio Share
   x-api-slug: actionrejectportfolioshare-get
   description: Rejects an offer to share a portfolio.
@@ -276,6 +445,67 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionrejectportfolioshare-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionrejectportfolioshare-get-openapi.md
+- name: AWS Service Catalog API - Scan Provisioned Products
+  x-api-slug: actionscanprovisionedproducts-get
+  description: |-
+    Returns a paginated list of all the ProvisionedProduct objects that are currently
+             available (not terminated).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionscanprovisionedproducts-get-openapi.md
+- name: AWS Service Catalog API - Search Products
+  x-api-slug: actionsearchproducts-get
+  description: |-
+    Returns a paginated list all of the Products objects to which the caller
+             has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionsearchproducts-get-openapi.md
+- name: AWS Service Catalog API - Search Products As Admin
+  x-api-slug: actionsearchproductsasadmin-get
+  description: |-
+    Retrieves summary and status information about all products created within the
+             caller's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionsearchproductsasadmin-get-openapi.md
+- name: AWS Service Catalog API - Terminate Provisioned Product
+  x-api-slug: actionterminateprovisionedproduct-get
+  description: Requests termination of an existing ProvisionedProduct object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionterminateprovisionedproduct-get-openapi.md
+- name: AWS Service Catalog API - Update Constraint
+  x-api-slug: actionupdateconstraint-get
+  description: Updates an existing constraint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionupdateconstraint-get-openapi.md
 - name: AWS Service Catalog API - Update Portfolio
   x-api-slug: actionupdateportfolio-get
   description: Updates the specified portfolio's details.
@@ -289,6 +519,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionupdateportfolio-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionupdateportfolio-get-openapi.md
+- name: AWS Service Catalog API - Update Product
+  x-api-slug: actionupdateproduct-get
+  description: Updates an existing product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionupdateproduct-get-openapi.md
+- name: AWS Service Catalog API - Update Provisioned Product
+  x-api-slug: actionupdateprovisionedproduct-get
+  description: Requests updates to the configuration of an existing ProvisionedProduct
+    object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionupdateprovisionedproduct-get-openapi.md
+- name: AWS Service Catalog API - Update Provisioning Artifact
+  x-api-slug: actionupdateprovisioningartifact-get
+  description: Updates an existing provisioning artifact's information.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-service-catalog/actionupdateprovisioningartifact-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.server.migration.service.api.gallery.streamdata.io

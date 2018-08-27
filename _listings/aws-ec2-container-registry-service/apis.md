@@ -15,11 +15,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS EC2 Container Registry API - Batch Check Layer Availability
+  x-api-slug: actionbatchchecklayeravailability-get
+  description: Check the availability of multiple image layers in a specified registry
+    and repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actionbatchchecklayeravailability-get-openapi.md
 - name: AWS EC2 Container Registry API - Batch Delete Image
   x-api-slug: actionbatchdeleteimage-get
   description: Deletes a list of specified images within a specified repository.
@@ -60,6 +72,74 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actioncompletelayerupload-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actioncompletelayerupload-get-openapi.md
+- name: AWS EC2 Container Registry API - Create Repository
+  x-api-slug: actioncreaterepository-get
+  description: Creates an image repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actioncreaterepository-get-openapi.md
+- name: AWS EC2 Container Registry API - Delete Repository
+  x-api-slug: actiondeleterepository-get
+  description: Deletes an existing image repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiondeleterepository-get-openapi.md
+- name: AWS EC2 Container Registry API - Delete Repository Policy
+  x-api-slug: actiondeleterepositorypolicy-get
+  description: Deletes the repository policy from a specified repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiondeleterepositorypolicy-get-openapi.md
+- name: AWS EC2 Container Registry API - Describe Images
+  x-api-slug: actiondescribeimages-get
+  description: |-
+    Returns metadata about the images in a repository, including image size, image
+                tags, and creation date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiondescribeimages-get-openapi.md
+- name: AWS EC2 Container Registry API - Describe Repositories
+  x-api-slug: actiondescriberepositories-get
+  description: Describes image repositories in a registry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiondescriberepositories-get-openapi.md
+- name: AWS EC2 Container Registry API - Get Authorization Token
+  x-api-slug: actiongetauthorizationtoken-get
+  description: Retrieves a token that is valid for a specified registry for 12 hours.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiongetauthorizationtoken-get-openapi.md
 - name: AWS EC2 Container Registry API - Get Download Url For Layer
   x-api-slug: actiongetdownloadurlforlayer-get
   description: .Retrieves the pre-signed Amazon S3 download URL corresponding to an
@@ -75,6 +155,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiongetdownloadurlforlayer-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiongetdownloadurlforlayer-get-openapi.md
+- name: AWS EC2 Container Registry API - Get Repository Policy
+  x-api-slug: actiongetrepositorypolicy-get
+  description: Retrieves the repository policy for a specified repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actiongetrepositorypolicy-get-openapi.md
 - name: AWS EC2 Container Registry API - Initiate Layer Upload
   x-api-slug: actioninitiatelayerupload-get
   description: Notify Amazon ECR that you intend to upload an image layer.
@@ -88,6 +179,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actioninitiatelayerupload-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actioninitiatelayerupload-get-openapi.md
+- name: AWS EC2 Container Registry API - List Images
+  x-api-slug: actionlistimages-get
+  description: Lists all the image IDs for a given repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actionlistimages-get-openapi.md
+- name: AWS EC2 Container Registry API - Put Image
+  x-api-slug: actionputimage-get
+  description: Creates or updates the image manifest and tags associated with an image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actionputimage-get-openapi.md
+- name: AWS EC2 Container Registry API - Set Repository Policy
+  x-api-slug: actionsetrepositorypolicy-get
+  description: Applies a repository policy on a specified repository to control access
+    permissions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-ec2-container-registry-service/actionsetrepositorypolicy-get-openapi.md
 - name: AWS EC2 Container Registry API - Upload Layer Part
   x-api-slug: actionuploadlayerpart-get
   description: Uploads an image layer part to Amazon ECR.

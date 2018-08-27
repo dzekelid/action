@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-login
 x-kinRank: "8"
 x-alexaRank: "60839"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/loginradius/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Login Operations - Submit a login action.
+  x-api-slug: login-post
+  description: If this is part of a multi-stage login, there MUST be a session key.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg
+  humanURL: http://www.loginradius.com/
+  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
+  tags: Login, Users, Authentication, Authentication, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Identities, Profiles, Service
+    API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/loginradius/login-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lloyds.bank.api.gallery.streamdata.io

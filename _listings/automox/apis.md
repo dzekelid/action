@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28761-docs
 x-kinRank: "7"
 x-alexaRank: "878532"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/automox/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Automox API - Post Policies Action
+  x-api-slug: policiesidaction-post
+  description: Schedule a policy for immediate remediation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28761-docs-automox-com.jpg
+  humanURL: https://automox.com
+  baseURL: https://console.automox.com//api
+  tags: SaaS, Technology, Enterprise, Operations, Servers, Security, Service API,
+    Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/automox/policiesidaction-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://autodesk.api.gallery.streamdata.io

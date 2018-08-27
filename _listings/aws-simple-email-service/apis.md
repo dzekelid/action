@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
 apis:
@@ -66,6 +66,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actioncreatereceiptfilter-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actioncreatereceiptfilter-get-openapi.md
+- name: AWS Simple Email Service API - Create Receipt Rule
+  x-api-slug: actioncreatereceiptrule-get
+  description: Creates a receipt rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actioncreatereceiptrule-get-openapi.md
 - name: AWS Simple Email Service API - Create Receipt Rule Set
   x-api-slug: actioncreatereceiptruleset-get
   description: Creates an empty receipt rule set.
@@ -146,6 +157,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actiondeletereceiptfilter-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actiondeletereceiptfilter-get-openapi.md
+- name: AWS Simple Email Service API - Delete Receipt Rule
+  x-api-slug: actiondeletereceiptrule-get
+  description: Deletes the specified receipt rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actiondeletereceiptrule-get-openapi.md
 - name: AWS Simple Email Service API - Delete Receipt Rule Set
   x-api-slug: actiondeletereceiptruleset-get
   description: Deletes the specified receipt rule set and all of the receipt rules
@@ -200,6 +222,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actiondescribeconfigurationset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actiondescribeconfigurationset-get-openapi.md
+- name: AWS Simple Email Service API - Describe Receipt Rule
+  x-api-slug: actiondescribereceiptrule-get
+  description: Returns the details of the specified receipt rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actiondescribereceiptrule-get-openapi.md
 - name: AWS Simple Email Service API - Describe Receipt Rule Set
   x-api-slug: actiondescribereceiptruleset-get
   description: Returns the details of the specified receipt rule set.
@@ -544,6 +577,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actionsetidentitynotificationtopic-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actionsetidentitynotificationtopic-get-openapi.md
+- name: AWS Simple Email Service API - Set Receipt Rule Position
+  x-api-slug: actionsetreceiptruleposition-get
+  description: Sets the position of the specified receipt rule in the receipt rule
+    set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actionsetreceiptruleposition-get-openapi.md
 - name: AWS Simple Email Service API - Update Configuration Set Event Destination
   x-api-slug: actionupdateconfigurationseteventdestination-get
   description: Updates the event destination of a configuration set.
@@ -570,6 +615,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actionupdatereceiptrule-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actionupdatereceiptrule-get-openapi.md
+- name: AWS Simple Email Service API - Verify Domain Dkim
+  x-api-slug: actionverifydomaindkim-get
+  description: Returns a set of DKIM tokens for a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-simple-email-service/actionverifydomaindkim-get-openapi.md
 - name: AWS Simple Email Service API - Verify Domain Identity
   x-api-slug: actionverifydomainidentity-get
   description: Verifies a domain.

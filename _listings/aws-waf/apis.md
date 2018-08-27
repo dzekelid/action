@@ -19,8 +19,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/apis.md
 specificationVersion: "0.14"
 apis:
@@ -63,6 +63,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actioncreateipset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actioncreateipset-get-openapi.md
+- name: AWS WAF API - Create Rule
+  x-api-slug: actioncreaterule-get
+  description: "Service: AWS WAFCreates a Rule, which contains the IPSet objects,
+    ByteMatchSet objects, and \n\t\t\tother predicates that identify the requests
+    that you want to block."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Firewall, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actioncreaterule-get-openapi.md
 - name: AWS WAF API - Create Size Constraint Set
   x-api-slug: actioncreatesizeconstraintset-get
   description: 'Service: AWS WAFCreates a SizeConstraintSet.'
@@ -142,6 +155,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actiondeleteipset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actiondeleteipset-get-openapi.md
+- name: AWS WAF API - Delete Rule
+  x-api-slug: actiondeleterule-get
+  description: 'Service: AWS WAFPermanently deletes a.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Firewall, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actiondeleterule-get-openapi.md
 - name: AWS WAF API - Delete Size Constraint Set
   x-api-slug: actiondeletesizeconstraintset-get
   description: 'Service: AWS WAFPermanently deletes a.'
@@ -262,6 +286,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actiongetipset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actiongetipset-get-openapi.md
+- name: AWS WAF API - Get Rule
+  x-api-slug: actiongetrule-get
+  description: 'Service: AWS WAFReturns the.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Firewall, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actiongetrule-get-openapi.md
 - name: AWS WAF API - Get Sampled Requests
   x-api-slug: actiongetsampledrequests-get
   description: 'Service: AWS WAFGets detailed information about a specified number
@@ -382,6 +417,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actionlistresourcesforwebacl-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actionlistresourcesforwebacl-get-openapi.md
+- name: AWS WAF API - List Rules
+  x-api-slug: actionlistrules-get
+  description: 'Service: AWS WAFReturns an array of.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Firewall, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actionlistrules-get-openapi.md
 - name: AWS WAF API - List Size Constraint Sets
   x-api-slug: actionlistsizeconstraintsets-get
   description: 'Service: AWS WAFReturns an array of.'
@@ -460,6 +506,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actionupdateipset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actionupdateipset-get-openapi.md
+- name: AWS WAF API - Update Rule
+  x-api-slug: actionupdaterule-get
+  description: 'Service: AWS WAFInserts or deletes.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Firewall, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-waf/actionupdaterule-get-openapi.md
 - name: AWS WAF API - Update Size Constraint Set
   x-api-slug: actionupdatesizeconstraintset-get
   description: 'Service: AWS WAFInserts or deletes.'

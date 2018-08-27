@@ -20,8 +20,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/apis.md
 specificationVersion: "0.14"
 apis:
@@ -141,6 +141,43 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiondescribechangeset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiondescribechangeset-get-openapi.md
+- name: AWS CloudFormation API - Describe Stack Events
+  x-api-slug: actiondescribestackevents-get
+  description: Returns all stack related events for a specified stack in reverse chronological
+    order.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiondescribestackevents-get-openapi.md
+- name: AWS CloudFormation API - Describe Stack Resource
+  x-api-slug: actiondescribestackresource-get
+  description: Returns a description of the specified resource in the specified stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiondescribestackresource-get-openapi.md
+- name: AWS CloudFormation API - Describe Stack Resources
+  x-api-slug: actiondescribestackresources-get
+  description: Returns AWS resource descriptions for running and deleted stacks.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiondescribestackresources-get-openapi.md
 - name: AWS CloudFormation API - Describe Stacks
   x-api-slug: actiondescribestacks-get
   description: Returns the description for the specified stack; if no stack name was
@@ -185,6 +222,42 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionexecutechangeset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionexecutechangeset-get-openapi.md
+- name: AWS CloudFormation API - Get Stack Policy
+  x-api-slug: actiongetstackpolicy-get
+  description: Returns the stack policy for a specified stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiongetstackpolicy-get-openapi.md
+- name: AWS CloudFormation API - Get Template
+  x-api-slug: actiongettemplate-get
+  description: Returns the template body for a specified stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiongettemplate-get-openapi.md
+- name: AWS CloudFormation API - Get Template Summary
+  x-api-slug: actiongettemplatesummary-get
+  description: Returns information about a new or existing template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actiongettemplatesummary-get-openapi.md
 - name: AWS CloudFormation API - List Change Sets
   x-api-slug: actionlistchangesets-get
   description: Returns the ID and status of each active change set for a stack.
@@ -199,6 +272,43 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionlistchangesets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionlistchangesets-get-openapi.md
+- name: AWS CloudFormation API - List Exports
+  x-api-slug: actionlistexports-get
+  description: Lists all exported output values in the account and region in which
+    you call this action.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionlistexports-get-openapi.md
+- name: AWS CloudFormation API - List Imports
+  x-api-slug: actionlistimports-get
+  description: Lists all stacks that are importing an exported output value.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionlistimports-get-openapi.md
+- name: AWS CloudFormation API - List Stack Resources
+  x-api-slug: actionliststackresources-get
+  description: Returns descriptions of all resources of the specified stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionliststackresources-get-openapi.md
 - name: AWS CloudFormation API - List Stacks
   x-api-slug: actionliststacks-get
   description: Returns the summary information for stacks whose status matches the
@@ -214,6 +324,31 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionliststacks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionliststacks-get-openapi.md
+- name: AWS CloudFormation API - Set Stack Policy
+  x-api-slug: actionsetstackpolicy-get
+  description: Sets a stack policy for a specified stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionsetstackpolicy-get-openapi.md
+- name: AWS CloudFormation API - Signal Resource
+  x-api-slug: actionsignalresource-get
+  description: Sends a signal to the specified resource with a success or failure
+    status.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionsignalresource-get-openapi.md
 - name: AWS CloudFormation API - Update Stack
   x-api-slug: actionupdatestack-get
   description: Updates a stack as specified in the template.
@@ -228,6 +363,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionupdatestack-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionupdatestack-get-openapi.md
+- name: AWS CloudFormation API - Validate Template
+  x-api-slug: actionvalidatetemplate-get
+  description: Validates a specified template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-cloudformation/actionvalidatetemplate-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.certificate.manager.api.gallery.streamdata.io

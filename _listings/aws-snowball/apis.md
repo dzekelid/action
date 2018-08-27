@@ -24,11 +24,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Action
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Snowball API - Cancel Cluster
+  x-api-slug: actioncancelcluster-get
+  description: Cancels a cluster job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actioncancelcluster-get-openapi.md
+- name: AWS Snowball API - Cancel Job
+  x-api-slug: actioncanceljob-get
+  description: Cancels the specified job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actioncanceljob-get-openapi.md
 - name: AWS Snowball API - Create Address
   x-api-slug: actioncreateaddress-get
   description: Creates an address for a Snowball to be shipped to.
@@ -43,6 +67,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+- name: AWS Snowball API - Create Cluster
+  x-api-slug: actioncreatecluster-get
+  description: Creates an empty cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actioncreatecluster-get-openapi.md
+- name: AWS Snowball API - Create Job
+  x-api-slug: actioncreatejob-get
+  description: |-
+    Creates a job to import or export data between Amazon S3 and your on-premises data
+          center.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actioncreatejob-get-openapi.md
 - name: AWS Snowball API - Describe Address
   x-api-slug: actiondescribeaddress-get
   description: |-
@@ -73,6 +123,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiondescribeaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+- name: AWS Snowball API - Describe Cluster
+  x-api-slug: actiondescribecluster-get
+  description: |-
+    Returns information about a specific cluster including shipping information, cluster
+          status, and other important metadata.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiondescribecluster-get-openapi.md
+- name: AWS Snowball API - Describe Job
+  x-api-slug: actiondescribejob-get
+  description: |-
+    Returns information about a specific job including shipping information, job status,
+          and other important metadata.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiondescribejob-get-openapi.md
 - name: AWS Snowball API - Get Job Manifest
   x-api-slug: actiongetjobmanifest-get
   description: |-
@@ -89,6 +167,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiongetjobmanifest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiongetjobmanifest-get-openapi.md
+- name: AWS Snowball API - Get Job Unlock Code
+  x-api-slug: actiongetjobunlockcode-get
+  description: Returns the UnlockCode code value for the specified job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiongetjobunlockcode-get-openapi.md
 - name: AWS Snowball API - Get Snowball Usage
   x-api-slug: actiongetsnowballusage-get
   description: |-
@@ -105,6 +195,70 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiongetsnowballusage-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actiongetsnowballusage-get-openapi.md
+- name: AWS Snowball API - List Cluster Jobs
+  x-api-slug: actionlistclusterjobs-get
+  description: Returns an array of JobListEntry objects of the specified length.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actionlistclusterjobs-get-openapi.md
+- name: AWS Snowball API - List Clusters
+  x-api-slug: actionlistclusters-get
+  description: Returns an array of ClusterListEntry objects of the specified length.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actionlistclusters-get-openapi.md
+- name: AWS Snowball API - List Jobs
+  x-api-slug: actionlistjobs-get
+  description: Returns an array of JobListEntry objects of the specified length.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actionlistjobs-get-openapi.md
+- name: AWS Snowball API - Update Cluster
+  x-api-slug: actionupdatecluster-get
+  description: |-
+    While a cluster's ClusterState value is in the AwaitingQuorum
+          state, you can update some of the information associated with a cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actionupdatecluster-get-openapi.md
+- name: AWS Snowball API - Update Job
+  x-api-slug: actionupdatejob-get
+  description: |-
+    While a job's JobState value is New, you can update some of
+          the information associated with a job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/action/master/_listings/aws-snowball/actionupdatejob-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.simple.queue.service.api.gallery.streamdata.io

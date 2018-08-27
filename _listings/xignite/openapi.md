@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
@@ -14,4 +13,23 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /GetCorporateActionHistory:
+    get:
+      summary: Get Corporate Action History
+      description: Get the corporate action history for a stock for a date range.
+      operationId: postGetcorporateactionhistory
+      x-api-path-slug: getcorporateactionhistory-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Corporate
+      - Action
+      - History
